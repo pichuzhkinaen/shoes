@@ -1,0 +1,15 @@
+.logo {
+    font-family: 'Futura Std Bold';
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    color: #EE3023;
+    margin-top: 36px;
+    &_light {
+        font-family: 'Futura Std Light';
+        font-size: 50px;
+        font-weight: 200;
+        color: #444444;
+        margin-left: 12px;
+    }
+}

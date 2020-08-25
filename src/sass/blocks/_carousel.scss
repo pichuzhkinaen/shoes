@@ -1,0 +1,83 @@
+.carousel {
+    font-family: 'Gotham';
+    height: 676px;
+    background: #9CCD8D;
+    padding: 0 66px;
+    margin-top: -23px;
+    .carousel-inner {
+        .slider {
+            display: flex !important;
+            justify-content: center;
+            padding-left: 6em;
+            &__img {
+                z-index: 1;
+            }
+            &__text {
+                margin-right: -2.7em;
+                z-index: 99;
+            }
+            &__title {
+                font-size: 164px;
+                line-height: 110px;
+                margin-bottom: 0;
+                margin-top: 196px;
+            }
+            &__title2 {
+                font-size: 141px;
+                line-height: 90px;
+                margin-left: 0.05em;
+            }
+            &__subtitle {
+                font-size: 70px;
+                line-height: 74px;
+                font-weight: normal;
+                color: #fff;
+                margin: 0 0 0 0.25em;
+            }
+            &__btn {
+                width: 219px;
+                height: 35px;
+                text-align: center;
+                letter-spacing: 2px;
+                color: #fff;
+                background: #E82026;
+                border: 1px #DA5840 solid;
+                border-radius: 20px;
+                margin-top: 9px;
+                cursor: pointer;
+                &_inner {
+                    width: 60%;
+                    height: 100%;
+                    letter-spacing: 2px;
+                    color: #fff;
+                    background: #E82026 url('/src/icon/Arrow1X.png') right center no-repeat;
+                    border: none;
+                    border-left: 2px #D9100C solid;
+                    cursor: pointer;
+                }
+            }
+        }
+        .slick-next {
+            width: 80px;
+            height: 80px;
+            background: #fff url('/src/icon/Arrow4.png') center no-repeat;
+            border: 3px solid;
+            border-color: #414A3E;
+            border-radius: 50%;
+            &::before {
+                content: '';
+            }
+        }
+        .slick-prev {
+            width: 80px;
+            height: 80px;
+            background: #fff url('/src/icon/Arrow3.png') center no-repeat;
+            border: 3px solid;
+            border-color: #414A3E;
+            border-radius: 50%;
+            &::before {
+                content: '';
+            }
+        } 
+    } 
+}
