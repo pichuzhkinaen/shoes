@@ -3,6 +3,7 @@ window.$ = window.jQuery = $;
 // import './jquery-migrate-1.2.1.min.js';
 import 'slick-carousel';
 import './inputmask.js';
+import './fontawesome-icons';
 
 // import './_drop-down-list-info';
 

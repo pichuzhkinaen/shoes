@@ -1,0 +1,58 @@
+.menu {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px #E6E6EB solid;
+    padding: 17px 40px;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding-left: 0;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        height: 38px;
+        list-style-type: none;
+        border-right: 1px #D6D1C7 solid;
+        padding-right: 30px;
+        &:nth-last-child(-n+2) {
+            border-right: none;
+        }
+    }
+    &__link {
+        font-family: 'Gotham';
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #444444;
+    }
+    &__search {
+        width: 200px;
+        height: 25px;
+        border: 1px #D6D1C7 solid;
+        border-radius: 50px;
+        color: #AB9F8D;
+        background: url('../icon/Loupe-icon.png');
+        background-position:  5% 50%;
+        background-repeat: no-repeat;
+        padding-left: 25px;
+    }
+    &-footer {
+        background: none;
+        border: none;
+        &__item {
+            height: 15px;
+            padding-right: 10px;
+            &:nth-child(5) {
+                border-right: 1px #D6D1C7 solid;
+            }
+        }
+        &__link {
+            font-size: 15px;
+            font-weight: normal;
+            text-transform: initial;
+            color: #fff;
+        }
+    }
+}

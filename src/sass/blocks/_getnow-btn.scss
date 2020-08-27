@@ -1,0 +1,35 @@
+.getnow-btn {
+    width: 219px;
+    height: 35px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #fff;
+    background: #E82026;
+    border: 1px #DA5840 solid;
+    border-radius: 20px;
+    margin-top: 9px;
+    cursor: pointer;
+    &__inner {
+        width: 60%;
+        height: 100%;
+        letter-spacing: 2px;
+        color: #fff;
+        background: none;
+        background: url('/src/icon/Arrow1X.png') right center no-repeat;
+        border: none;
+        border-left: 2px #D9100C solid;
+        border-radius: 0 20px 20px 0;
+        cursor: pointer;
+    }
+}
+.getnow-product {
+    width: 176px;
+    height: 29px;
+    font-size: 12px;
+    margin: 0 auto;
+    &__inner {
+        width: 55%;
+        font-size: 12px;
+        background-size: 7%;
+    }
+}

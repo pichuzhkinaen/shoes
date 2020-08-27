@@ -1,0 +1,40 @@
+.special-products {
+    background: #F2F2F2;
+    padding: 30px 0 95px 0;
+    .text-top {
+        display: flex;
+        justify-content: space-between;
+        &__title {
+            font-size: 20px;
+            letter-spacing: 1px;
+            color: #000;
+            margin: 0;
+            &_color {
+                font-size: 20px;
+                letter-spacing: 1px;
+                color: #EE3023;
+            }
+        }
+        &__link {
+            font-style: italic;
+            font-size: 14px;
+            text-decoration: none;
+            color: #626162;
+            background: url('/src/icon/Arrow@1X.png') left 35% no-repeat;
+            padding-left: 10px;
+            margin-right: 25px;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__wrapper {
+        background: #fff;
+        padding: 31px 13px 38px 13px;
+    }
+    .products {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}

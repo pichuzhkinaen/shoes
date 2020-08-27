@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    align-items: center;
+    height: 125px;
+    background: #F2262C;
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .social {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 160px;
+        &__icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 31px;
+            height: 31px;
+            background: #fff;
+            border-radius: 3px;
+            margin: 0 4px;
+            i {
+                font-size: 22px;
+                text-align: center;
+                color: #F2262C;
+                filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2)); 
+            }
+        }
+    }
+}

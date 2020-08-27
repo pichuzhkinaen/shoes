@@ -1,0 +1,47 @@
+.hamburger {
+    position: relative;
+    width: 17px;
+    height: 12px;
+    padding-left: 1.25em;
+    margin: 0 auto;
+    margin-top: 5px;
+    cursor: pointer;
+    &__item {
+        // backface-visibility: hidden;
+        position: absolute;
+        left: 0;
+        border-top: 2px solid #614261;
+        width: 80%;
+        transition: 0.55s;
+        &-top {
+            top: 0;
+        }
+        &-middle {
+           top: 3px; 
+        }
+        &-middle2 {
+            top: 6px; 
+         }
+        &-bottom {
+            top: 9px;
+        }
+        .top_active {
+            backface-visibility: hidden;
+            top: 15px;
+            transform: rotate(50deg);
+            transition: 0.55s 0.5s;
+        }
+        .middle_active {
+            opacity: 0;
+        }
+        .middle_active {
+            opacity: 0;
+        }
+        .bottom_active {
+            backface-visibility: hidden;
+            top: 15px;
+            transform: rotate(-410deg);
+            transition: 0.55s 0.5s;
+        }
+    }
+}

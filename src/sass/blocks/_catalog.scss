@@ -1,0 +1,65 @@
+.catalog {
+    width: 100%;
+    height: auto;
+    background: #F2F2F2;
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+        &__item {
+            width: 362px;
+            height: 385px;
+            text-align: center;
+            background: #fff;
+            border: 1px solid #E6E6EB;
+            padding: 27px 0 13px;
+            margin-top: -53px;
+            z-index: 10;
+        }
+        &__title {
+            font-family: 'Futura Std Light';
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+        &__background {
+            width: 173px;
+            height: 173px;
+            border-radius: 50%;
+            margin: 16px auto 20px auto;
+            &_first {
+                background: url('/src/img/Layer21@1X.png');
+                background-position: 40% 70%;
+            }
+            &_second {
+                background: url('/src/img/Layer20@1X.png');
+                background-position: 59% 45%;
+            }
+            &_third {
+                background: url('/src/img/Layer22@1X.png');
+                background-position: 40% 25%;
+            }
+        }
+        &__icon {
+            opacity: 0.9;
+            &_1 {
+                transform: translateY(35%);
+            }
+            &_2 {
+                transform: translateY(140%);
+            }
+            &_3 {
+                transform: translateY(140%);
+            }
+        }
+        &__total {
+            font-family: 'Gotham', sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: 2px;
+            color: #F2262C;
+        }
+        &__count {
+            font-size: 12px;
+        }
+    }
+    
+}
