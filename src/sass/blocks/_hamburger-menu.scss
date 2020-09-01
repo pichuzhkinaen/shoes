@@ -1,17 +1,15 @@
 .hamburger-menu {
     display: none;
-    position: absolute;
     width: 284px;
     height: 236px;
     background: #fff;
     border: 1px #E6E6EB solid;
     padding: 15px 0;
-    z-index: 100;
+    margin: 10px auto 0 auto;
     &__title {
         font-weight: bold;
         font-size: 20px;
         letter-spacing: 1px;
-        margin-left: 4.7rem;
     }
 }
 .menu-lists {

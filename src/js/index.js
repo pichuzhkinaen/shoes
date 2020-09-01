@@ -38,13 +38,31 @@ document.addEventListener('DOMContentLoaded', function() {
         ]
     });
 
-    //маска ввода номера телефона        
-    // let form = document.querySelector('.form'),
-    //     phone = document.getElementById('phone');
+    //гамбургер
+    let hamburger = document.querySelectorAll('.hamburger'),
+        hamburgerList = document.querySelectorAll('.hamburger__list'),
+        hamburgerMenu = document.querySelector('.hamburger-menu');
 
+    // console.log(hamburgerList);
 
-    // let im = new Inputmask("+7 (999) 999-99-99");
-    // im.mask(phone);
+    for (let i = 0; i < hamburger.length; i++) {
+        hamburgerList[i].addEventListener('click', hamburgerOpenClose);
+    }
 
-    
+    function hamburgerOpenClose() {
+
+        if (this.classList.contains('hamburger__list_click')) {
+            this.classList.remove('hamburger__list_click');
+            hamburgerMenu.style.display = 'none';
+        } else {
+            for (let i = 0; i < hamburger.length; i++) {
+                if (hamburgerList[i].classList.contains('hamburger__list_click') != this) {
+                    hamburgerList[i].classList.remove('hamburger__list_click');
+                }
+            }
+            this.classList.add('hamburger__list_click');
+            this.parentElement.append(hamburgerMenu);
+            hamburgerMenu.style.display = 'block';
+        }  
+    }    
 });

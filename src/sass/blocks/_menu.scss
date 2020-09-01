@@ -26,17 +26,21 @@
         text-transform: uppercase;
         text-decoration: none;
         color: #444444;
+        &:hover {
+            color: #065188;
+        }
     }
     &__search {
         width: 200px;
         height: 25px;
+        line-height: 29px;
+        color: #444444;
         border: 1px #D6D1C7 solid;
         border-radius: 50px;
-        color: #AB9F8D;
         background: url('../icon/Loupe-icon.png');
         background-position:  5% 50%;
         background-repeat: no-repeat;
-        padding-left: 25px;
+        padding-left: 27px;
     }
     &-footer {
         background: none;
@@ -53,6 +57,9 @@
             font-weight: normal;
             text-transform: initial;
             color: #fff;
+            &:hover {
+                color: #5C4344;
+            }
         }
     }
 }

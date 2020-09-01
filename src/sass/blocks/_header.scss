@@ -13,7 +13,9 @@
                 font-size: 14px;
                 color: #000000;
                 text-decoration: none;
-                
+                &:hover {
+                    color: #065188;
+                }
             }
         }
         .entrance {
@@ -37,6 +39,9 @@
             &__img {
                 cursor: pointer;
                 outline: none;
+                &:hover {
+                    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+                }
             }
             &__link {
                 color: #000000;
@@ -58,6 +63,10 @@
                 font-weight: 700;
                 text-transform: uppercase;
                 color: #FFFFFF;
+                cursor: pointer;
+                &:hover {
+                    background: linear-gradient(to top, #d4140a, #f77671);
+                }
             }
             &__arrow {
                 filter: brightness(150%);

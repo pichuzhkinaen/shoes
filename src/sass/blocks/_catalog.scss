@@ -5,6 +5,8 @@
     &-inner {
         display: flex;
         justify-content: space-between;
+        position: relative;
+        z-index: 10;
         &__item {
             width: 362px;
             height: 385px;
@@ -13,7 +15,6 @@
             border: 1px solid #E6E6EB;
             padding: 27px 0 13px;
             margin-top: -53px;
-            z-index: 10;
         }
         &__title {
             font-family: 'Futura Std Light';

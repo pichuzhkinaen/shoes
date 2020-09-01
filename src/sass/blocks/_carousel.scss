@@ -38,9 +38,8 @@
         .slick-next {
             width: 80px;
             height: 80px;
-            background: #fff url('/src/icon/Arrow4.png') center no-repeat;
-            border: 3px solid;
-            border-color: #414A3E;
+            background: #fff url('/src/icon/Arrow4.png') 58% center no-repeat;
+            border: 5px solid #414A3E;
             border-radius: 50%;
             &::before {
                 content: '';
@@ -49,10 +48,10 @@
         .slick-prev {
             width: 80px;
             height: 80px;
-            background: #fff url('/src/icon/Arrow3.png') center no-repeat;
-            border: 3px solid;
-            border-color: #414A3E;
+            background: #fff url('/src/icon/Arrow3.png') 42% center no-repeat;
+            border: 5px solid #414A3E;
             border-radius: 50%;
+            z-index: 99;
             &::before {
                 content: '';
             }
