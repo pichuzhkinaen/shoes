@@ -1,0 +1,25 @@
+.filter {
+    background: #F2F2F2;
+    padding-top: 20px;
+    margin-top: -53px;
+    &__title {
+        width: 93px;
+        height: 29px;
+        background: #2A2929;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 2px;
+        line-height: 29px;
+        margin: 49px 0 0 12px;
+        h3 {
+            margin-top: 0;
+        }
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        background: #fff;
+        padding: 20px;
+    }    
+}

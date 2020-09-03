@@ -1,0 +1,79 @@
+.color {
+    &__title {
+        font-family: 'Gotham', sans-serif;
+    }
+    &__select {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 210px;
+    }
+    &__btn {
+        width: 21px;
+        height: 21px;
+        border-radius: 0;
+        border: none;
+        cursor: pointer;
+        &-1 {
+            background: #E82026;
+        }
+        &-2 {
+            background: #F9A058;
+        }
+        &-3 {
+            background: #58A8F9;
+        }
+        &-4 {
+            background: #DBE47B;
+        }
+        &-5 {
+            background: #610B0E; 
+        }
+        &-6 {
+            background: #781C70; 
+        }
+        &-7 {
+            background: #1B334C; 
+        }
+        &-8 {
+            background: #517737; 
+        }
+        &-9 {
+            background: #7520E8; 
+        }
+        &-10 {
+            background: #4C3D31;
+        }
+        &-11 {
+            background: #060606;
+        }
+        &-12 {
+            background: #1A6A0B; 
+        }
+        &-13 {
+            background: #A0629F;
+        }
+        &-14 {
+            background: #074A74;
+        }
+        &-15 {
+            background: #BEADAD; 
+        }
+        &-16 {
+            background: #F65812;
+        }
+        &-17 {
+            background: #C4DA0F; 
+        }
+        &-18 {
+            background: #377377;
+        }
+        &-19 {
+            background: #BD8B7A; 
+        }
+    }
+    &__subtitle {
+        font-family: 'Gotham', sans-serif;
+        margin-top: 28px;
+    }
+}

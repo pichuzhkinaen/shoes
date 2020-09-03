@@ -3,6 +3,9 @@
     background: #FFFFFF;
     border: 1px #E6E6EB solid;
     padding: 17px 40px;
+    position: relative;
+    margin-top: -53px;
+    z-index: 10;
     &__list {
         display: flex;
         justify-content: space-between;
@@ -31,20 +34,12 @@
         }
     }
     &__search {
-        width: 200px;
-        height: 25px;
-        line-height: 29px;
-        color: #444444;
-        border: 1px #D6D1C7 solid;
-        border-radius: 50px;
-        background: url('../icon/Loupe-icon.png');
-        background-position:  5% 50%;
-        background-repeat: no-repeat;
         padding-left: 27px;
     }
     &-footer {
         background: none;
         border: none;
+        margin-top: 0;
         &__item {
             height: 15px;
             padding-right: 10px;

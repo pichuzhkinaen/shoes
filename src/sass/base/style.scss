@@ -1,15 +1,20 @@
+// @import '~bootstrap';
+
 @import "../base/general";
 
 @import "../blocks/header";
 @import "../blocks/logo";
 @import "../blocks/menu";
+@import "../blocks/search";
 @import "../blocks/carousel";
 @import "../blocks/getnow-btn";
 @import "../blocks/catalog";
 @import "../blocks/hamburger";
-@import "../blocks/hamburger-menu";
+@import "../blocks/selection-menu";
 @import "../blocks/special-products";
 @import "../blocks/product";
 @import "../blocks/footer";
+@import "../blocks/filter";
+@import "../blocks/color";
 
 @import "../base/media";

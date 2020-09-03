@@ -1,47 +1,24 @@
 import $ from 'jquery';
 window.$ = window.jQuery = $;
-// import './jquery-migrate-1.2.1.min.js';
-
 //import 'jquery-ui';
-import 'slick-carousel';
-import './inputmask.js';
+//require('webpack-jquery-ui');
+import 'webpack-jquery-ui';
+import 'webpack-jquery-ui/css';
+
 import './fontawesome-icons';
 
-// import './_drop-down-list-info';
 
 import '../css/bootstrap-grid.min.css';
 import "../fonts/MyriadPro/stylesheet.css";
 import "../fonts/FuturaStd/style.css";
 import "../fonts/Gotham/stylesheet.css";
-import '../../node_modules/slick-carousel/slick/slick.css';
-import '../../node_modules/slick-carousel/slick/slick-theme.css';
 import '../css/style.css';
-// import './style.scss';
-// import '../sass/base/style.scss';
 
 document.addEventListener('DOMContentLoaded', function() {
     'use strict';
 
-    //слайдер
-    $('.carousel-inner').slick({
-        speed: 1200,
-        prevArrow: '<button type="button" class="slick-prev"></button>',
-        nextArrow: '<button type="button" class="slick-next"></button>',
-        responsive: [
-            {
-                breakpoint: 992,
-                settings: {
-                    dots: false,
-                    centerMode: true,
-                    variableWidth: true,
-                    autoplay:true
-                }
-            }
-        ]
-    });
-
-        //гамбургер
-        let hamburger = document.querySelectorAll('.hamburger'),
+    //гамбургер
+    let hamburger = document.querySelectorAll('.hamburger'),
         hamburgerList = document.querySelectorAll('.hamburger__list'),
         hamburgerMenu = document.querySelector('.selection-menu__hamburger');
 
@@ -71,4 +48,18 @@ document.addEventListener('DOMContentLoaded', function() {
             // }
         }  
     }
-});
+
+    $( function() {
+        $( "#slider-range" ).slider({
+          range: true,
+          min: 0,
+          max: 500,
+          values: [ 75, 300 ],
+          slide: function( event, ui ) {
+            $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+          }
+        });
+        $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+          " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+    });
+}); 

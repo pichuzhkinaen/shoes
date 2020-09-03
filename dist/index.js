@@ -14115,6 +14115,8 @@ __webpack_require__.r(__webpack_exports__);
 window.$ = window.jQuery = jquery__WEBPACK_IMPORTED_MODULE_0___default.a;
 // import './jquery-migrate-1.2.1.min.js';
 
+//import 'jquery-ui';
+
 
 
 
@@ -14127,8 +14129,8 @@ window.$ = window.jQuery = jquery__WEBPACK_IMPORTED_MODULE_0___default.a;
 
 
 
+// import './style.scss';
 // import '../sass/base/style.scss';
-
 
 document.addEventListener('DOMContentLoaded', function() {
     'use strict';
@@ -14151,12 +14153,12 @@ document.addEventListener('DOMContentLoaded', function() {
         ]
     });
 
-    //гамбургер
-    let hamburger = document.querySelectorAll('.hamburger'),
+        //гамбургер
+        let hamburger = document.querySelectorAll('.hamburger'),
         hamburgerList = document.querySelectorAll('.hamburger__list'),
-        hamburgerMenu = document.querySelector('.hamburger-menu');
+        hamburgerMenu = document.querySelector('.selection-menu__hamburger');
 
-    // console.log(hamburgerList);
+    // console.log(hamburgerMenu);
 
     for (let i = 0; i < hamburger.length; i++) {
         hamburgerList[i].addEventListener('click', hamburgerOpenClose);
@@ -14166,7 +14168,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (this.classList.contains('hamburger__list_click')) {
             this.classList.remove('hamburger__list_click');
-            hamburgerMenu.style.display = 'none';
+            // for (let j = 0; j < hamburgerMenu.length; j++) {
+                hamburgerMenu.style.display = 'none';
+            // }
         } else {
             for (let i = 0; i < hamburger.length; i++) {
                 if (hamburgerList[i].classList.contains('hamburger__list_click') != this) {
@@ -14175,9 +14179,11 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             this.classList.add('hamburger__list_click');
             this.parentElement.append(hamburgerMenu);
-            hamburgerMenu.style.display = 'block';
+            // for (let j = 0; j < hamburgerMenu.length; j++) {
+                hamburgerMenu.style.display = 'block';
+            // }
         }  
-    }    
+    }
 });
 
 /***/ }),

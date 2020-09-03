@@ -26,28 +26,28 @@
             height: 173px;
             border-radius: 50%;
             margin: 16px auto 20px auto;
-            &_first {
+            &-first {
                 background: url('/src/img/Layer21@1X.png');
                 background-position: 40% 70%;
             }
-            &_second {
+            &-second {
                 background: url('/src/img/Layer20@1X.png');
                 background-position: 59% 45%;
             }
-            &_third {
+            &-third {
                 background: url('/src/img/Layer22@1X.png');
                 background-position: 40% 25%;
             }
         }
         &__icon {
             opacity: 0.9;
-            &_1 {
+            &-1 {
                 transform: translateY(35%);
             }
-            &_2 {
+            &-2 {
                 transform: translateY(140%);
             }
-            &_3 {
+            &-3 {
                 transform: translateY(140%);
             }
         }
@@ -62,5 +62,46 @@
             font-size: 12px;
         }
     }
-    
+    &-product {
+        &__item {
+            width: 182px;
+            height: 236px;
+            border: none;
+            margin-top: 0;
+        }
+        &__title {
+            font-size: 20px;
+        }
+        &__background {
+            width: 104px;
+            height: 104px;
+            &-first {
+                background-size: 100%;
+            }
+            &-second {
+                background-size: 350%;
+                background-position: 59% 100%;
+            }
+            &-third {
+                background-size: 100%;
+            }
+        }
+        &__icon {
+            &-1 {
+                width: 50%;
+            }
+            &-2 {
+                width: 60%;
+            }
+            &-3 {
+                width: 60%;
+            }
+        }
+        &__total {
+            font-size: 16px;
+        }
+        &__count {
+            font-size: 10px;
+        }
+    }
 }
