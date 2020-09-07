@@ -31324,18 +31324,21 @@ document.addEventListener('DOMContentLoaded', function() {
         }  
     }
 
-    jquery__WEBPACK_IMPORTED_MODULE_0___default()( function() {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(function() {
         jquery__WEBPACK_IMPORTED_MODULE_0___default()( "#slider-range" ).slider({
           range: true,
-          min: 0,
-          max: 500,
-          values: [ 75, 300 ],
-          slide: function( event, ui ) {
-            jquery__WEBPACK_IMPORTED_MODULE_0___default()( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+          min: 20,
+          max: 200,
+          values: [44, 190],
+          slide: function(event, ui) {
+            //изменение значений при движении ползунков
+            jquery__WEBPACK_IMPORTED_MODULE_0___default()( ".slider-range__amount-left" ).text( ui.values[ 0 ] + "$");
+            jquery__WEBPACK_IMPORTED_MODULE_0___default()( ".slider-range__amount-right" ).text( ui.values[ 1 ] + "$");
           }
         });
-        jquery__WEBPACK_IMPORTED_MODULE_0___default()( "#amount" ).val( "$" + jquery__WEBPACK_IMPORTED_MODULE_0___default()( "#slider-range" ).slider( "values", 0 ) +
-          " - $" + jquery__WEBPACK_IMPORTED_MODULE_0___default()( "#slider-range" ).slider( "values", 1 ) );
+        //добавление элементов со значениями ползунков при загрузке страницы
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()( ".ui-slider-handle:eq(0)" ).append( "<span class='slider-range__amount-left'>" + jquery__WEBPACK_IMPORTED_MODULE_0___default()( "#slider-range" ).slider( "values", 0 ) + "$" + "</span>" );
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()( ".ui-slider-handle:eq(1)" ).append( "<span class='slider-range__amount-right'>" + jquery__WEBPACK_IMPORTED_MODULE_0___default()( "#slider-range" ).slider( "values", 1 ) + "$" + "</span>" );
     });
 }); 
 
