@@ -8,3 +8,7 @@
 ![shoes](https://github.com/pichuzhkinaen/shoes/blob/master/Screenshot_5.jpg)
 ![shoes](https://github.com/pichuzhkinaen/shoes/blob/master/Screenshot_6.jpg)
 ![shoes](https://github.com/pichuzhkinaen/shoes/blob/master/Screenshot_7.jpg)
+## Каталог (открывается при клике на пункт меню "PRODUCTS")
+![shoes](https://github.com/pichuzhkinaen/shoes/blob/master/Screenshot_8.jpg)
+![shoes](https://github.com/pichuzhkinaen/shoes/blob/master/Screenshot_9.jpg)
+![shoes](https://github.com/pichuzhkinaen/shoes/blob/master/Screenshot_10.jpg)
