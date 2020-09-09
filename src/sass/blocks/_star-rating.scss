@@ -1,0 +1,42 @@
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 113px;
+    &__label {
+        margin: 0px;
+        padding: 0px;        
+        width: 19px;
+        height: 19px;
+    }
+    &__star {
+        width: 19px;
+        height: 19px;
+        background: url(../icon/Sprite.png);
+        background-position: 19px 0;
+        filter: drop-shadow(-1px -1px 0 rgba(0, 0, 0, .4));
+        margin-right: 3px;
+        cursor: pointer;
+        &:hover, &:hover ~ .star-rating__star {
+            background-position: 0 0;
+        }
+    }
+    &__input {
+        display: none;
+        margin: 0px;
+        padding: 0px;     
+        width: 19px;
+        height: 19px;
+        &:checked, &:checked ~ .star-rating__star {
+            background-position: 0 0;
+        }
+    }  
+    &__text {
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: underline;
+        &-2 {
+            font-size: inherit;
+            font-weight: 700;
+        }
+    }
+}

@@ -40,7 +40,7 @@
                 cursor: pointer;
                 outline: none;
                 &:hover {
-                    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+                    filter: drop-shadow(0 0.2rem 0.25rem rgba(255, 242, 127, 0.966));
                 }
             }
             &__link {
@@ -56,17 +56,6 @@
             &__btn {
                 width: 166px;
                 height: 40px;
-                background: linear-gradient(to top, #E52D22, #FA837F);
-                border: 1px #E82026 solid;
-                border-radius: 5px;
-                font-size: 16px;
-                font-weight: 700;
-                text-transform: uppercase;
-                color: #FFFFFF;
-                cursor: pointer;
-                &:hover {
-                    background: linear-gradient(to top, #d4140a, #f77671);
-                }
             }
             &__arrow {
                 filter: brightness(150%);

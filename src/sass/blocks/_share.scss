@@ -1,0 +1,85 @@
+.share {
+    position: absolute;
+    text-align: right;
+    margin-top: 38px;
+    right: 0;
+    &__text {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    &__social {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 250px;
+        height: 31px;
+        background: #fff;
+        border-radius: 5px;
+        margin-top: 3px;
+    }
+    &__img {
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+        &-1 {
+            background: url('../icon/facebook.svg');
+
+        }
+        &-2 {
+            background: #EBECEC url('../icon/twitter.svg') center no-repeat;
+            background-size: 80%;
+            border: 1px solid #E6E6EB;
+        }
+        &-3 {
+            background: url('../icon/mail.svg') center / cover;
+            background-size: 140%;
+            opacity: .3;
+            border: 1px solid #2c2c2c;
+        }
+        &-4 {
+            background: url('../icon/print.svg') center;
+            opacity: .8;
+        }
+        &-5 {
+          background: #EE6F4A;
+          padding: 5px;
+        }
+        &-plus {
+            text-align: center;
+            background: #fff;
+            height: 15px; 
+            width: 3px;
+            position: relative; 
+            left: 6px;
+            &::after {
+                content: "";
+                height: 3px; 
+                width: 15px;
+                background: #fff;
+                position: absolute; 
+                left: -6px; 
+                top: 6px;
+            }
+        }
+    }
+    &__sbscr {
+        position: relative;
+        width: 50px;
+        height: 25px;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid #C1C1C1;
+        padding: 3px;
+        &::after {
+            content: "<";
+            color: #C1C1C1;
+            position: absolute;
+            left: -10px; 
+        }
+        &-text {
+            font-size: 14px;
+            font-weight: 600;
+            color: #3E3E3E;
+        }
+    }
+}

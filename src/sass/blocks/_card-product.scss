@@ -1,0 +1,125 @@
+.card-product {
+    background: #F2F2F2;
+    padding-top: 42px;
+    &__title {
+        font-family: 'Gotham';
+        font-size: 30px;
+        line-height: 22px;
+        font-weight: 500;
+        margin: 0;
+    }
+    &__subtitle {
+        font-family: 'Gotham';
+        line-height: 14px;
+        font-weight: 400;
+        margin: 8px 0 0 0;
+    }
+    &__photo {
+        width: 468px;
+        height: 405px;
+        border: 1px solid #f0eeee;
+        background: #fff;
+        text-align: center;
+        padding-top: 53px;
+        margin-top: 13px;
+        &-logo {
+            width: 229px;
+            margin-top: 40px;
+        }
+    }
+    &__small {
+        display: flex;
+        justify-content: space-between;
+        width: 468px;
+        margin-top: 10px;
+        &-img {
+            width: 149px;
+            height: 121px;
+            border: 1px solid #f0eeee;
+            &:hover {
+                border: 5px solid #FE3C32;
+                cursor: pointer;
+            }
+        }
+    }
+    &__wrapper-price {
+        display: flex;
+    }
+    &__old-price {
+        width: 135px;
+        height: 32px;
+        background: #FE3C32;
+        font-family: 'Futura Std Light';
+        color: #fff;
+        font-size: 26px;
+        line-height: 26px;
+        text-align: center;
+        text-decoration-line: line-through;
+        padding: 6px;
+        margin: -25px 0 0 186px;
+    }
+    &__new-price {
+        width: 321px;
+        height: 69px;
+        font-family: 'Futura Std Bold';
+        font-size: 60px;
+        line-height: 66px;
+        font-weight: 700;
+        text-align: center;
+        color: #444444;
+        background: #fff;
+        border: 1px solid #E6E6EB;
+        box-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+        margin-top: 4px;
+    }
+    &__text {
+        text-align: right;
+        color: #929191;
+    }
+    &__option {
+        display: flex;
+        justify-content: flex-end;
+        color: #605F5F;
+        margin-top: 27px;
+    }
+    &__size {
+        font-style: italic;
+        font-weight: 700;
+    }
+    &__select-size {
+        width: 137px;
+        height: 35px;
+        border: 1px solid #E6E6EB;
+        border-radius: 5px;
+        font-style: italic;
+        color: #605F5F;
+        background: #fff;
+        padding: 7px 0 7px 10px;
+        margin-right: 18px;
+    }
+    &__qty {
+        font-style: italic;
+    }
+    &__select-qty {
+        width: 49px;
+        height: 35px;
+        border: 1px solid #E6E6EB;
+        border-radius: 5px;
+        font-style: italic;
+        color: #605F5F;
+        background: #fff;
+        padding: 7px 0 7px 10px;
+    }
+    &__btn {
+        display: block;
+        width: 204px;
+        height: 46px;
+        text-transform: initial;
+        font-family: 'Myriad Pro';
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 2px;
+        background: linear-gradient(to top right, #d4140a, #f77671);
+        margin: 16px 0 0 auto;
+    }
+}

@@ -1,0 +1,24 @@
+.product-descr {
+    background: #F2F2F2;
+    padding-bottom: 97px;
+    .product-text {
+        color: #605F5F;
+        background: #fff;
+        border: 1px solid #f0eeee;
+        padding: 40px 27px;
+        &__title {
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        &__subtitle {
+            color: #F2262C;
+            text-transform: uppercase;
+            margin-top: 36px;
+        }
+        &__descr {
+            &_bold {
+                font-weight: 600;
+            }
+        }
+    }
+}

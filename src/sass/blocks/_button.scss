@@ -1,0 +1,13 @@
+.button {
+    background: linear-gradient(to top, #E52D22, #FA837F);
+    border: 1px #E82026 solid;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    &:hover {
+        background: linear-gradient(to top, #d4140a, #f77671);
+    }
+}
