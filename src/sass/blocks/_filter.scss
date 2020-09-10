@@ -1,5 +1,4 @@
 .filter {
-    background: #F2F2F2;
     padding-top: 20px;
     margin-top: -53px;
     &__title {
@@ -19,6 +18,7 @@
     &__content {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         background: #fff;
         padding: 20px;
     }    

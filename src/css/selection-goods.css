@@ -1,0 +1,57 @@
+.selection-goods {
+  background: #F2F2F2;
+  padding: 30px 0 95px 0;
+}
+
+.selection-goods .text-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.selection-goods .text-top__title {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #000;
+  margin: 0;
+}
+
+.selection-goods .text-top__title_color {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #EE3023;
+}
+
+.selection-goods .text-top__link {
+  font-style: italic;
+  font-size: 14px;
+  text-decoration: none;
+  color: #626162;
+  background: url("/src/icon/Arrow@1X.png") left 35% no-repeat;
+  padding-left: 10px;
+  margin-right: 25px;
+}
+
+.selection-goods .text-top__link:hover {
+  text-decoration: underline;
+}
+
+.selection-goods__wrapper {
+  background: #fff;
+  padding: 31px 13px 38px 13px;
+}
+
+.selection-goods .products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=selection-goods.css.map */

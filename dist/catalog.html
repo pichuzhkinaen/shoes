@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/333ca478e2.js" crossorigin="anonymous"></script>
-<link rel="icon" href="/dist/assets/favicon.ico"><link href="/dist/product.css" rel="stylesheet"></head>
+<link rel="icon" href="/dist/assets/favicon.ico"><link href="/dist/catalog.css" rel="stylesheet"></head>
 
 <body>
     <header class="header">
@@ -32,7 +32,7 @@
         </div>
     </header>
 
-    <nav class="nav nav-product">
+    <nav class="nav">
         <div class="container">
             <div class="menu">
                 <ul class="menu__list">
@@ -42,7 +42,7 @@
                     <li class="menu__item"><a href="#" class="menu__link">BRANDS</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">ABOUT US</a></li>
                     <li class="menu__item">
-                        <input type="text" name="search" placeholder="Search" autocomplete="off" class=" search menu__search">
+                        <input type="text" name="search" placeholder="Search" autocomplete="off" class="search menu__search">
                     </li>
                 </ul>
             </div>
@@ -161,135 +161,156 @@
         </div>
     </section>
 
-    <section class="card-product">
+    <section class="selection-goods">
         <div class="container">
-            <h1 class="card-product__title">Men'sFootwear</h1>
-            <h2 class="card-product__subtitle">Hookset Handcrafted Fabric Chukka</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card-product__photo">
-                        <img class="card-product__photo-img" src="/dist/Layer118@2X.png" alt="Men'sFootwear">
-                        <img class="card-product__photo-logo" src="/dist/timberland.jpg" alt="Men'sFootwear">
-                    </div>
-                    <div class="card-product__small">
-                        <img class="card-product__small-img" src="/dist/Layer118.1@1X.png" alt="Men'sFootwear">
-                        <img class="card-product__small-img" src="/dist/Layer119@1X.png" alt="Men'sFootwear">
-                        <img class="card-product__small-img" src="/dist/Layer120@1X.png" alt="Men'sFootwear">
-                    </div>
+            <div class="selection-goods__wrapper">
+                <div class="text-top">
+                    <h3 class="text-top__title">SPECIAL <span class="text-top__title_color">PRODUCTS</span></h3>
+                    <a href="#" class="text-top__link">view all products</a>
                 </div>
-                <div class="col-md-6">
-                    <div class="card-product__purchase">
-                        <div class="star-rating">
-                            <input class="star-rating__input" id="star-4" type="radio" name="star"/>
-                            <label class="star-rating__star" for="star-4"></label>
-                        
-                            <input class="star-rating__input" id="star-3" type="radio" name="star"/>
-                            <label class="star-rating__star" for="star-3"></label>
-                        
-                            <input class="star-rating__input" id="star-2" type="radio" name="star"/>
-                            <label class="star-rating__star" for="star-2"></label>
-                        
-                            <input class="star-rating__input" id="star-1" type="radio" name="star"/>
-                            <label class="star-rating__star" for="star-1"></label>
-                        
-                            <input class="star-rating__input" id="star-0" type="radio" name="star"/>
-                            <label class="star-rating__star" for="star-0"></label>
-
+                <div class="products">
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer95@1X.png" alt="product"></div>
+                        <div class="product__img product__img_1"></div>
+                        <h4 class="product__text">Nike Roshe Run Premium Holiday</h4>
+                        <div class="getnow-btn getnow-product">109.90$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
                         </div>
-                        <br>
-                        <i class="star-rating__text">Read <span id="star-rating_count" class="star-rating__text-2">8</span> Reviews</i>
-                        <div class="card-product__wrapper-price">
-                            <div class="card-product__price">
-                                <div class="card-product__old-price">174.00</div>
-                                <div class="card-product__new-price">
-                                    109.00$
-                                </div>
-                            </div>
-                            <div class="save">
-                                <img class="save__img" src="/dist/Shape-pig.png" alt="save">
-                                <span class="save__text"> save <span class="save__text-2">40%</span></span>
-                            </div>
+                    </a>
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer97@1X.png" alt="product"></div>
+                        <div class="product__img product__img_2"></div>
+                        <h4 class="product__text"><br>Line Link 67009</h4>
+                        <div class="getnow-btn getnow-product">109.90$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
                         </div>
-                        <hr size="2px" color="#CFC8BC">
-                        <p class="card-product__text">This is a long established fact that a reader will be distracte This is a long established fact that a reader will be distracte This is a long established fact that a reader will be distracte</p>
-                        <div class="shipping">
-                            <img src="/dist/shipping.png" alt="shipping" class="shipping">
-                            Free shipping
+                    </a>
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer99@1X.png" alt="product"></div>
+                        <div class="product__img product__img_3"></div>
+                        <h4 class="product__text"><br>Minimus Zero</h4>
+                        <div class="getnow-btn getnow-product">91.56$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
                         </div>
-                        <div class="card-product__option">
-                            <div class="card-product__size">
-                                <div>Size:</div>
-                                <select class="card-product__select-size" type="text" size="1">                                   
-                                    <option>Select Size</option>
-                                    <option>30</option>
-                                    <option>32</option>
-                                    <option>36</option>
-                                    <option>41</option>
-                                    <option>42</option>
-                                </select>
-                            </div>
-                            <div class="card-product__qty">
-                                <div>Qty:</div>
-                                <form>
-                                    <select class="card-product__select-qty" type="text">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </form>
-                            </div>
+                    </a>
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer102@1X.png" alt="product"></div>
+                        <div class="product__img product__img_4"></div>
+                        <h4 class="product__text">Converse Toddler Boy's Athletic Shoe</h4>
+                        <div class="getnow-btn getnow-product">91.56$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
                         </div>
-                        <button class="card-product__btn button">Add to cart</button>
-                        <div class="share">
-                            <span class="share__text">Share This:</span>
-                            <div class="share__social">
-                                <a href="#">
-                                    <div class="share__img share__img-1"></div>
-                                </a>
-                                <a href="#">
-                                    <div class="share__img share__img-2"></div>
-                                </a>
-                                <a href="#">
-                                    <div class="share__img share__img-3"></div>
-                                </a>
-                                <a href="#">
-                                    <div class="share__img share__img-4"></div>
-                                </a>
-                                <a href="#">
-                                    <div  class="share__img share__img-5">
-                                        <div class="share__img-plus"></div>
-                                    </div>
-                                </a>
-                                <div class="share__sbscr">
-                                    <span class="share__sbscr-text">1.8M</span>
-                                </div>
-                            </img>
+                    </a>
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer97@1X.png" alt="product"></div>
+                        <div class="product__img product__img_5"></div>
+                        <h4 class="product__text"><br>Veronique</h4>
+                        <div class="getnow-btn getnow-product">109.90$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
                         </div>
-                    </div>
+                    </a>
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer106@1X.png" alt="product"></div>
+                        <div class="product__img product__img_6"></div>
+                        <h4 class="product__text"><br>Kid's Contest Suede Boots</h4>
+                        <div class="getnow-btn getnow-product">109.90$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
+                        </div>
+                    </a>
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer108@1X.png" alt="product"></div>
+                        <div class="product__img product__img_7"></div>
+                        <h4 class="product__text"><br>Barricade 6.0</h4>
+                        <div class="getnow-btn getnow-product">109.90$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
+                        </div>
+                    </a>
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer110@1X.png" alt="product"></div>
+                        <div class="product__img product__img_8"></div>
+                        <h4 class="product__text"><br>Superga 2750 Cotu Classic</h4>
+                        <div class="getnow-btn getnow-product">109.90$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="product-menu">
+    <section class="selection-goods">
         <div class="container">
-            <ul class="product-menu__list">
-                <li class="product-menu__item">product overwıev</li>
-                <li class="product-menu__item">features</li>
-                <li class="product-menu__item">customer reviews</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="product-descr">
-        <div class="container">
-            <div class="product-text">
-                <h2 class="product-text__title">description:</h2>
-                <p class="product-text__descr">A few days ago I decided to go to a big department store in the centre of my town and to buy new shoes for me. When I came in the salesman spoke to another customer. I had to wait for ten minutes and used this possibility for looking at the shoes displayed for sale.A few days ago I decided to go to a big department store in the centre of my town and to buy new shoes for me. When I came in the salesman spoke to another customer. I had to wait for ten minutes and used this possibility for looking at the shoes displayed for sale.</p>
-                <h3 class="product-text__subtitle">details:</h3>
-                <p class="product-text__descr_bold">In several minutes the salesman asked me to try on the dark-green shoes of this model. The size was right for me. The shoes fit me perfectly. I liked the colour and came to the decision to buy them. I thanked the salesman and went to the cashdesk.</p>
+            <div class="selection-goods__wrapper">
+                <div class="text-top">
+                    <h3 class="text-top__title">LATEST <span class="text-top__title_color">PRODUCTS</span></h3>
+                    <a href="#" class="text-top__link">view all products</a>
+                </div>
+                <div class="products">
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer95@1X.png" alt="product"></div>
+                        <div class="product__img product__img_1"></div>
+                        <h4 class="product__text">Nike Roshe Run Premium Holiday</h4>
+                        <div class="getnow-btn getnow-product">109.90$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
+                        </div>
+                    </a>
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer97@1X.png" alt="product"></div>
+                        <div class="product__img product__img_2"></div>
+                        <h4 class="product__text"><br>Line Link 67009</h4>
+                        <div class="getnow-btn getnow-product">109.90$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
+                        </div>
+                    </a>
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer99@1X.png" alt="product"></div>
+                        <div class="product__img product__img_3"></div>
+                        <h4 class="product__text"><br>Minimus Zero</h4>
+                        <div class="getnow-btn getnow-product">91.56$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
+                        </div>
+                    </a>
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer102@1X.png" alt="product"></div>
+                        <div class="product__img product__img_4"></div>
+                        <h4 class="product__text">Converse Toddler Boy's Athletic Shoe</h4>
+                        <div class="getnow-btn getnow-product">91.56$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
+                        </div>
+                    </a>
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer97@1X.png" alt="product"></div>
+                        <div class="product__img product__img_5"></div>
+                        <h4 class="product__text"><br>Veronique</h4>
+                        <div class="getnow-btn getnow-product">109.90$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
+                        </div>
+                    </a>
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer106@1X.png" alt="product"></div>
+                        <div class="product__img product__img_6"></div>
+                        <h4 class="product__text"><br>Kid's Contest Suede Boots</h4>
+                        <div class="getnow-btn getnow-product">109.90$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
+                        </div>
+                    </a>
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer108@1X.png" alt="product"></div>
+                        <div class="product__img product__img_7"></div>
+                        <h4 class="product__text"><br>Barricade 6.0</h4>
+                        <div class="getnow-btn getnow-product">109.90$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
+                        </div>
+                    </a>
+                    <a href="product.html" class="product">
+                        <div class="product__logo"><img src="/dist/Layer110@1X.png" alt="product"></div>
+                        <div class="product__img product__img_8"></div>
+                        <h4 class="product__text"><br>Superga 2750 Cotu Classic</h4>
+                        <div class="getnow-btn getnow-product">109.90$
+                            <button class="getnow-btn__inner getnow-product__inner">GET NOW</button>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -317,7 +338,7 @@
         </div>
     </footer>
 
-    <div class="selection-menu selection-menu__filter selection-menu__hamburger">
+    <div class="selection-menu selection-menu__hamburger">
         <hi class="selection-menu__title">shoes</hi>
         <div class="menu-lists">
             <ul class="menu-lists__list menu-lists__list-1">
@@ -340,5 +361,6 @@
         </div>
     </div>
 
-<script src="/dist/product.js"></script></body>
+<script src="/dist/catalog.js"></script></body>
+
 </html>
