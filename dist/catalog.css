@@ -1276,31 +1276,31 @@ a.ui-button:active,
 }
 .ui-icon,
 .ui-widget-content .ui-icon {
-	background-image: url(/dist/ui-icons_444444_256x240.png);
+	background-image: url(ui-icons_444444_256x240.png);
 }
 .ui-widget-header .ui-icon {
-	background-image: url(/dist/ui-icons_444444_256x240.png);
+	background-image: url(ui-icons_444444_256x240.png);
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon,
 .ui-button:hover .ui-icon,
 .ui-button:focus .ui-icon {
-	background-image: url(/dist/ui-icons_555555_256x240.png);
+	background-image: url(ui-icons_555555_256x240.png);
 }
 .ui-state-active .ui-icon,
 .ui-button:active .ui-icon {
-	background-image: url(/dist/ui-icons_ffffff_256x240.png);
+	background-image: url(ui-icons_ffffff_256x240.png);
 }
 .ui-state-highlight .ui-icon,
 .ui-button .ui-state-highlight.ui-icon {
-	background-image: url(/dist/ui-icons_777620_256x240.png);
+	background-image: url(ui-icons_777620_256x240.png);
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-	background-image: url(/dist/ui-icons_cc0000_256x240.png);
+	background-image: url(ui-icons_cc0000_256x240.png);
 }
 .ui-button .ui-icon {
-	background-image: url(/dist/ui-icons_777777_256x240.png);
+	background-image: url(ui-icons_777777_256x240.png);
 }
 
 /* positioning */
@@ -1532,440 +1532,440 @@ a.ui-button:active,
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-BoldCondIt.eot);
+	src: url(MyriadPro-BoldCondIt.eot);
 	src: local('Myriad Pro Bold Condensed Italic'), local('MyriadPro-BoldCondIt'),
-		url(/dist/MyriadPro-BoldCondIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-BoldCondIt.woff) format('woff'),
-		url(/dist/MyriadPro-BoldCondIt.ttf) format('truetype');
+		url(MyriadPro-BoldCondIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-BoldCondIt.woff) format('woff'),
+		url(MyriadPro-BoldCondIt.ttf) format('truetype');
 	font-weight: bold;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-BlackIt.eot);
+	src: url(MyriadPro-BlackIt.eot);
 	src: local('Myriad Pro Black Italic'), local('MyriadPro-BlackIt'),
-		url(/dist/MyriadPro-BlackIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-BlackIt.woff) format('woff'),
-		url(/dist/MyriadPro-BlackIt.ttf) format('truetype');
+		url(MyriadPro-BlackIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-BlackIt.woff) format('woff'),
+		url(MyriadPro-BlackIt.ttf) format('truetype');
 	font-weight: 900;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-LightIt.eot);
+	src: url(MyriadPro-LightIt.eot);
 	src: local('Myriad Pro Light Italic'), local('MyriadPro-LightIt'),
-		url(/dist/MyriadPro-LightIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-LightIt.woff) format('woff'),
-		url(/dist/MyriadPro-LightIt.ttf) format('truetype');
+		url(MyriadPro-LightIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-LightIt.woff) format('woff'),
+		url(MyriadPro-LightIt.ttf) format('truetype');
 	font-weight: 300;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-BlackCond.eot);
+	src: url(MyriadPro-BlackCond.eot);
 	src: local('Myriad Pro Black Condensed'), local('MyriadPro-BlackCond'),
-		url(/dist/MyriadPro-BlackCond.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-BlackCond.woff) format('woff'),
-		url(/dist/MyriadPro-BlackCond.ttf) format('truetype');
+		url(MyriadPro-BlackCond.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-BlackCond.woff) format('woff'),
+		url(MyriadPro-BlackCond.ttf) format('truetype');
 	font-weight: 900;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-Cond.eot);
+	src: url(MyriadPro-Cond.eot);
 	src: local('Myriad Pro Condensed'), local('MyriadPro-Cond'),
-		url(/dist/MyriadPro-Cond.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-Cond.woff) format('woff'),
-		url(/dist/MyriadPro-Cond.ttf) format('truetype');
+		url(MyriadPro-Cond.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-Cond.woff) format('woff'),
+		url(MyriadPro-Cond.ttf) format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-Bold.eot);
+	src: url(MyriadPro-Bold.eot);
 	src: local('Myriad Pro Bold'), local('MyriadPro-Bold'),
-		url(/dist/MyriadPro-Bold.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-Bold.woff) format('woff'),
-		url(/dist/MyriadPro-Bold.ttf) format('truetype');
+		url(MyriadPro-Bold.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-Bold.woff) format('woff'),
+		url(MyriadPro-Bold.ttf) format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-BoldIt.eot);
+	src: url(MyriadPro-BoldIt.eot);
 	src: local('Myriad Pro Bold Italic'), local('MyriadPro-BoldIt'),
-		url(/dist/MyriadPro-BoldIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-BoldIt.woff) format('woff'),
-		url(/dist/MyriadPro-BoldIt.ttf) format('truetype');
+		url(MyriadPro-BoldIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-BoldIt.woff) format('woff'),
+		url(MyriadPro-BoldIt.ttf) format('truetype');
 	font-weight: bold;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-BoldSemiCnIt.eot);
+	src: url(MyriadPro-BoldSemiCnIt.eot);
 	src: local('Myriad Pro Bold SemiCondensed Italic'), local('MyriadPro-BoldSemiCnIt'),
-		url(/dist/MyriadPro-BoldSemiCnIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-BoldSemiCnIt.woff) format('woff'),
-		url(/dist/MyriadPro-BoldSemiCnIt.ttf) format('truetype');
+		url(MyriadPro-BoldSemiCnIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-BoldSemiCnIt.woff) format('woff'),
+		url(MyriadPro-BoldSemiCnIt.ttf) format('truetype');
 	font-weight: bold;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-CondIt.eot);
+	src: url(MyriadPro-CondIt.eot);
 	src: local('Myriad Pro Condensed Italic'), local('MyriadPro-CondIt'),
-		url(/dist/MyriadPro-CondIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-CondIt.woff) format('woff'),
-		url(/dist/MyriadPro-CondIt.ttf) format('truetype');
+		url(MyriadPro-CondIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-CondIt.woff) format('woff'),
+		url(MyriadPro-CondIt.ttf) format('truetype');
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-LightCond.eot);
+	src: url(MyriadPro-LightCond.eot);
 	src: local('Myriad Pro Light Condensed'), local('MyriadPro-LightCond'),
-		url(/dist/MyriadPro-LightCond.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-LightCond.woff) format('woff'),
-		url(/dist/MyriadPro-LightCond.ttf) format('truetype');
+		url(MyriadPro-LightCond.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-LightCond.woff) format('woff'),
+		url(MyriadPro-LightCond.ttf) format('truetype');
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-SemiCn.eot);
+	src: url(MyriadPro-SemiCn.eot);
 	src: local('Myriad Pro SemiCondensed'), local('MyriadPro-SemiCn'),
-		url(/dist/MyriadPro-SemiCn.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-SemiCn.woff) format('woff'),
-		url(/dist/MyriadPro-SemiCn.ttf) format('truetype');
+		url(MyriadPro-SemiCn.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-SemiCn.woff) format('woff'),
+		url(MyriadPro-SemiCn.ttf) format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-SemiCnIt.eot);
+	src: url(MyriadPro-SemiCnIt.eot);
 	src: local('Myriad Pro SemiCondensed Italic'), local('MyriadPro-SemiCnIt'),
-		url(/dist/MyriadPro-SemiCnIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-SemiCnIt.woff) format('woff'),
-		url(/dist/MyriadPro-SemiCnIt.ttf) format('truetype');
+		url(MyriadPro-SemiCnIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-SemiCnIt.woff) format('woff'),
+		url(MyriadPro-SemiCnIt.ttf) format('truetype');
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-BoldCond.eot);
+	src: url(MyriadPro-BoldCond.eot);
 	src: local('Myriad Pro Bold Condensed'), local('MyriadPro-BoldCond'),
-		url(/dist/MyriadPro-BoldCond.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-BoldCond.woff) format('woff'),
-		url(/dist/MyriadPro-BoldCond.ttf) format('truetype');
+		url(MyriadPro-BoldCond.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-BoldCond.woff) format('woff'),
+		url(MyriadPro-BoldCond.ttf) format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-LightSemiExtIt.eot);
+	src: url(MyriadPro-LightSemiExtIt.eot);
 	src: local('Myriad Pro Light SemiExtended Italic'), local('MyriadPro-LightSemiExtIt'),
-		url(/dist/MyriadPro-LightSemiExtIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-LightSemiExtIt.woff) format('woff'),
-		url(/dist/MyriadPro-LightSemiExtIt.ttf) format('truetype');
+		url(MyriadPro-LightSemiExtIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-LightSemiExtIt.woff) format('woff'),
+		url(MyriadPro-LightSemiExtIt.ttf) format('truetype');
 	font-weight: 300;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-Semibold.eot);
+	src: url(MyriadPro-Semibold.eot);
 	src: local('Myriad Pro Semibold'), local('MyriadPro-Semibold'),
-		url(/dist/MyriadPro-Semibold.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-Semibold.woff) format('woff'),
-		url(/dist/MyriadPro-Semibold.ttf) format('truetype');
+		url(MyriadPro-Semibold.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-Semibold.woff) format('woff'),
+		url(MyriadPro-Semibold.ttf) format('truetype');
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-Black.eot);
+	src: url(MyriadPro-Black.eot);
 	src: local('Myriad Pro Black'), local('MyriadPro-Black'),
-		url(/dist/MyriadPro-Black.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-Black.woff) format('woff'),
-		url(/dist/MyriadPro-Black.ttf) format('truetype');
+		url(MyriadPro-Black.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-Black.woff) format('woff'),
+		url(MyriadPro-Black.ttf) format('truetype');
 	font-weight: 900;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-Regular.eot);
+	src: url(MyriadPro-Regular.eot);
 	src: local('Myriad Pro Regular'), local('MyriadPro-Regular'),
-		url(/dist/MyriadPro-Regular.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-Regular.woff) format('woff'),
-		url(/dist/MyriadPro-Regular.ttf) format('truetype');
+		url(MyriadPro-Regular.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-Regular.woff) format('woff'),
+		url(MyriadPro-Regular.ttf) format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-LightSemiCn.eot);
+	src: url(MyriadPro-LightSemiCn.eot);
 	src: local('Myriad Pro Light SemiCondensed'), local('MyriadPro-LightSemiCn'),
-		url(/dist/MyriadPro-LightSemiCn.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-LightSemiCn.woff) format('woff'),
-		url(/dist/MyriadPro-LightSemiCn.ttf) format('truetype');
+		url(MyriadPro-LightSemiCn.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-LightSemiCn.woff) format('woff'),
+		url(MyriadPro-LightSemiCn.ttf) format('truetype');
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-BlackCondIt.eot);
+	src: url(MyriadPro-BlackCondIt.eot);
 	src: local('Myriad Pro Black Condensed Italic'), local('MyriadPro-BlackCondIt'),
-		url(/dist/MyriadPro-BlackCondIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-BlackCondIt.woff) format('woff'),
-		url(/dist/MyriadPro-BlackCondIt.ttf) format('truetype');
+		url(MyriadPro-BlackCondIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-BlackCondIt.woff) format('woff'),
+		url(MyriadPro-BlackCondIt.ttf) format('truetype');
 	font-weight: 900;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-LightCondIt.eot);
+	src: url(MyriadPro-LightCondIt.eot);
 	src: local('Myriad Pro Light Condensed Italic'), local('MyriadPro-LightCondIt'),
-		url(/dist/MyriadPro-LightCondIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-LightCondIt.woff) format('woff'),
-		url(/dist/MyriadPro-LightCondIt.ttf) format('truetype');
+		url(MyriadPro-LightCondIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-LightCondIt.woff) format('woff'),
+		url(MyriadPro-LightCondIt.ttf) format('truetype');
 	font-weight: 300;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-LightSemiExt.eot);
+	src: url(MyriadPro-LightSemiExt.eot);
 	src: local('Myriad Pro Light SemiExtended'), local('MyriadPro-LightSemiExt'),
-		url(/dist/MyriadPro-LightSemiExt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-LightSemiExt.woff) format('woff'),
-		url(/dist/MyriadPro-LightSemiExt.ttf) format('truetype');
+		url(MyriadPro-LightSemiExt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-LightSemiExt.woff) format('woff'),
+		url(MyriadPro-LightSemiExt.ttf) format('truetype');
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-BlackSemiCnIt.eot);
+	src: url(MyriadPro-BlackSemiCnIt.eot);
 	src: local('Myriad Pro Black SemiCondensed Italic'), local('MyriadPro-BlackSemiCnIt'),
-		url(/dist/MyriadPro-BlackSemiCnIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-BlackSemiCnIt.woff) format('woff'),
-		url(/dist/MyriadPro-BlackSemiCnIt.ttf) format('truetype');
+		url(MyriadPro-BlackSemiCnIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-BlackSemiCnIt.woff) format('woff'),
+		url(MyriadPro-BlackSemiCnIt.ttf) format('truetype');
 	font-weight: bold;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-SemiboldCondIt.eot);
+	src: url(MyriadPro-SemiboldCondIt.eot);
 	src: local('Myriad Pro Semibold Condensed Italic'), local('MyriadPro-SemiboldCondIt'),
-		url(/dist/MyriadPro-SemiboldCondIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-SemiboldCondIt.woff) format('woff'),
-		url(/dist/MyriadPro-SemiboldCondIt.ttf) format('truetype');
+		url(MyriadPro-SemiboldCondIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-SemiboldCondIt.woff) format('woff'),
+		url(MyriadPro-SemiboldCondIt.ttf) format('truetype');
 	font-weight: 600;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-SemiboldCond.eot);
+	src: url(MyriadPro-SemiboldCond.eot);
 	src: local('Myriad Pro Semibold Condensed'), local('MyriadPro-SemiboldCond'),
-		url(/dist/MyriadPro-SemiboldCond.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-SemiboldCond.woff) format('woff'),
-		url(/dist/MyriadPro-SemiboldCond.ttf) format('truetype');
+		url(MyriadPro-SemiboldCond.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-SemiboldCond.woff) format('woff'),
+		url(MyriadPro-SemiboldCond.ttf) format('truetype');
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-BoldSemiExtIt.eot);
+	src: url(MyriadPro-BoldSemiExtIt.eot);
 	src: local('Myriad Pro Bold SemiExtended Italic'), local('MyriadPro-BoldSemiExtIt'),
-		url(/dist/MyriadPro-BoldSemiExtIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-BoldSemiExtIt.woff) format('woff'),
-		url(/dist/MyriadPro-BoldSemiExtIt.ttf) format('truetype');
+		url(MyriadPro-BoldSemiExtIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-BoldSemiExtIt.woff) format('woff'),
+		url(MyriadPro-BoldSemiExtIt.ttf) format('truetype');
 	font-weight: bold;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-SemiboldSemiCn.eot);
+	src: url(MyriadPro-SemiboldSemiCn.eot);
 	src: local('Myriad Pro Semibold SemiCondensed'), local('MyriadPro-SemiboldSemiCn'),
-		url(/dist/MyriadPro-SemiboldSemiCn.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-SemiboldSemiCn.woff) format('woff'),
-		url(/dist/MyriadPro-SemiboldSemiCn.ttf) format('truetype');
+		url(MyriadPro-SemiboldSemiCn.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-SemiboldSemiCn.woff) format('woff'),
+		url(MyriadPro-SemiboldSemiCn.ttf) format('truetype');
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-BlackSemiExtIt.eot);
+	src: url(MyriadPro-BlackSemiExtIt.eot);
 	src: local('Myriad Pro Black SemiExtended Italic'), local('MyriadPro-BlackSemiExtIt'),
-		url(/dist/MyriadPro-BlackSemiExtIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-BlackSemiExtIt.woff) format('woff'),
-		url(/dist/MyriadPro-BlackSemiExtIt.ttf) format('truetype');
+		url(MyriadPro-BlackSemiExtIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-BlackSemiExtIt.woff) format('woff'),
+		url(MyriadPro-BlackSemiExtIt.ttf) format('truetype');
 	font-weight: 900;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-SemiboldSemiExtIt.eot);
+	src: url(MyriadPro-SemiboldSemiExtIt.eot);
 	src: local('Myriad Pro Semibold SemiExtended Italic'), local('MyriadPro-SemiboldSemiExtIt'),
-		url(/dist/MyriadPro-SemiboldSemiExtIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-SemiboldSemiExtIt.woff) format('woff'),
-		url(/dist/MyriadPro-SemiboldSemiExtIt.ttf) format('truetype');
+		url(MyriadPro-SemiboldSemiExtIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-SemiboldSemiExtIt.woff) format('woff'),
+		url(MyriadPro-SemiboldSemiExtIt.ttf) format('truetype');
 	font-weight: 600;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-LightSemiCnIt.eot);
+	src: url(MyriadPro-LightSemiCnIt.eot);
 	src: local('Myriad Pro Light SemiCondensed Italic'), local('MyriadPro-LightSemiCnIt'),
-		url(/dist/MyriadPro-LightSemiCnIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-LightSemiCnIt.woff) format('woff'),
-		url(/dist/MyriadPro-LightSemiCnIt.ttf) format('truetype');
+		url(MyriadPro-LightSemiCnIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-LightSemiCnIt.woff) format('woff'),
+		url(MyriadPro-LightSemiCnIt.ttf) format('truetype');
 	font-weight: 300;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-BoldSemiCn.eot);
+	src: url(MyriadPro-BoldSemiCn.eot);
 	src: local('Myriad Pro Bold SemiCondensed'), local('MyriadPro-BoldSemiCn'),
-		url(/dist/MyriadPro-BoldSemiCn.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-BoldSemiCn.woff) format('woff'),
-		url(/dist/MyriadPro-BoldSemiCn.ttf) format('truetype');
+		url(MyriadPro-BoldSemiCn.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-BoldSemiCn.woff) format('woff'),
+		url(MyriadPro-BoldSemiCn.ttf) format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-SemiboldSemiCnIt.eot);
+	src: url(MyriadPro-SemiboldSemiCnIt.eot);
 	src: local('Myriad Pro Semibold SemiCondensed Italic'), local('MyriadPro-SemiboldSemiCnIt'),
-		url(/dist/MyriadPro-SemiboldSemiCnIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-SemiboldSemiCnIt.woff) format('woff'),
-		url(/dist/MyriadPro-SemiboldSemiCnIt.ttf) format('truetype');
+		url(MyriadPro-SemiboldSemiCnIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-SemiboldSemiCnIt.woff) format('woff'),
+		url(MyriadPro-SemiboldSemiCnIt.ttf) format('truetype');
 	font-weight: 600;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-SemiboldIt.eot);
+	src: url(MyriadPro-SemiboldIt.eot);
 	src: local('Myriad Pro Semibold Italic'), local('MyriadPro-SemiboldIt'),
-		url(/dist/MyriadPro-SemiboldIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-SemiboldIt.woff) format('woff'),
-		url(/dist/MyriadPro-SemiboldIt.ttf) format('truetype');
+		url(MyriadPro-SemiboldIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-SemiboldIt.woff) format('woff'),
+		url(MyriadPro-SemiboldIt.ttf) format('truetype');
 	font-weight: 600;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-It.eot);
+	src: url(MyriadPro-It.eot);
 	src: local('Myriad Pro Italic'), local('MyriadPro-It'),
-		url(/dist/MyriadPro-It.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-It.woff) format('woff'),
-		url(/dist/MyriadPro-It.ttf) format('truetype');
+		url(MyriadPro-It.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-It.woff) format('woff'),
+		url(MyriadPro-It.ttf) format('truetype');
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-BoldSemiExt.eot);
+	src: url(MyriadPro-BoldSemiExt.eot);
 	src: local('Myriad Pro Bold SemiExtended'), local('MyriadPro-BoldSemiExt'),
-		url(/dist/MyriadPro-BoldSemiExt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-BoldSemiExt.woff) format('woff'),
-		url(/dist/MyriadPro-BoldSemiExt.ttf) format('truetype');
+		url(MyriadPro-BoldSemiExt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-BoldSemiExt.woff) format('woff'),
+		url(MyriadPro-BoldSemiExt.ttf) format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-Light.eot);
+	src: url(MyriadPro-Light.eot);
 	src: local('Myriad Pro Light'), local('MyriadPro-Light'),
-		url(/dist/MyriadPro-Light.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-Light.woff) format('woff'),
-		url(/dist/MyriadPro-Light.ttf) format('truetype');
+		url(MyriadPro-Light.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-Light.woff) format('woff'),
+		url(MyriadPro-Light.ttf) format('truetype');
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-SemiboldSemiExt.eot);
+	src: url(MyriadPro-SemiboldSemiExt.eot);
 	src: local('Myriad Pro Semibold SemiExtended'), local('MyriadPro-SemiboldSemiExt'),
-		url(/dist/MyriadPro-SemiboldSemiExt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-SemiboldSemiExt.woff) format('woff'),
-		url(/dist/MyriadPro-SemiboldSemiExt.ttf) format('truetype');
+		url(MyriadPro-SemiboldSemiExt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-SemiboldSemiExt.woff) format('woff'),
+		url(MyriadPro-SemiboldSemiExt.ttf) format('truetype');
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-SemiExtIt.eot);
+	src: url(MyriadPro-SemiExtIt.eot);
 	src: local('Myriad Pro SemiExtended Italic'), local('MyriadPro-SemiExtIt'),
-		url(/dist/MyriadPro-SemiExtIt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-SemiExtIt.woff) format('woff'),
-		url(/dist/MyriadPro-SemiExtIt.ttf) format('truetype');
+		url(MyriadPro-SemiExtIt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-SemiExtIt.woff) format('woff'),
+		url(MyriadPro-SemiExtIt.ttf) format('truetype');
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-BlackSemiCn.eot);
+	src: url(MyriadPro-BlackSemiCn.eot);
 	src: local('Myriad Pro Black SemiCondensed'), local('MyriadPro-BlackSemiCn'),
-		url(/dist/MyriadPro-BlackSemiCn.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-BlackSemiCn.woff) format('woff'),
-		url(/dist/MyriadPro-BlackSemiCn.ttf) format('truetype');
+		url(MyriadPro-BlackSemiCn.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-BlackSemiCn.woff) format('woff'),
+		url(MyriadPro-BlackSemiCn.ttf) format('truetype');
 	font-weight: 900;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-BlackSemiExt.eot);
+	src: url(MyriadPro-BlackSemiExt.eot);
 	src: local('Myriad Pro Black SemiExtended'), local('MyriadPro-BlackSemiExt'),
-		url(/dist/MyriadPro-BlackSemiExt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-BlackSemiExt.woff) format('woff'),
-		url(/dist/MyriadPro-BlackSemiExt.ttf) format('truetype');
+		url(MyriadPro-BlackSemiExt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-BlackSemiExt.woff) format('woff'),
+		url(MyriadPro-BlackSemiExt.ttf) format('truetype');
 	font-weight: 900;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url(/dist/MyriadPro-SemiExt.eot);
+	src: url(MyriadPro-SemiExt.eot);
 	src: local('Myriad Pro SemiExtended'), local('MyriadPro-SemiExt'),
-		url(/dist/MyriadPro-SemiExt.eot?#iefix) format('embedded-opentype'),
-		url(/dist/MyriadPro-SemiExt.woff) format('woff'),
-		url(/dist/MyriadPro-SemiExt.ttf) format('truetype');
+		url(MyriadPro-SemiExt.eot?#iefix) format('embedded-opentype'),
+		url(MyriadPro-SemiExt.woff) format('woff'),
+		url(MyriadPro-SemiExt.ttf) format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -1976,7 +1976,7 @@ a.ui-button:active,
 font-family: 'Futura Std Book';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Book'), url(/dist/FuturaStdBook.woff) format('woff');
+src: local('Futura Std Book'), url(FuturaStdBook.woff) format('woff');
 }
 
 
@@ -1984,7 +1984,7 @@ src: local('Futura Std Book'), url(/dist/FuturaStdBook.woff) format('woff');
 font-family: 'Futura Std Book Oblique';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Book Oblique'), url(/dist/FuturaStdBookOblique.woff) format('woff');
+src: local('Futura Std Book Oblique'), url(FuturaStdBookOblique.woff) format('woff');
 }
 
 
@@ -1992,7 +1992,7 @@ src: local('Futura Std Book Oblique'), url(/dist/FuturaStdBookOblique.woff) form
 font-family: 'Futura Std Light Condensed';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Light Condensed'), url(/dist/FuturaStdCondensedLight.woff) format('woff');
+src: local('Futura Std Light Condensed'), url(FuturaStdCondensedLight.woff) format('woff');
 }
 
 
@@ -2000,7 +2000,7 @@ src: local('Futura Std Light Condensed'), url(/dist/FuturaStdCondensedLight.woff
 font-family: 'Futura Std Light';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Light'), url(/dist/FuturaStdLight.woff) format('woff');
+src: local('Futura Std Light'), url(FuturaStdLight.woff) format('woff');
 }
 
 
@@ -2008,7 +2008,7 @@ src: local('Futura Std Light'), url(/dist/FuturaStdLight.woff) format('woff');
 font-family: 'Futura Std Light Condensed Oblique';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Light Condensed Oblique'), url(/dist/FuturaStdCondensedLightObl.woff) format('woff');
+src: local('Futura Std Light Condensed Oblique'), url(FuturaStdCondensedLightObl.woff) format('woff');
 }
 
 
@@ -2016,7 +2016,7 @@ src: local('Futura Std Light Condensed Oblique'), url(/dist/FuturaStdCondensedLi
 font-family: 'Futura Std Light Oblique';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Light Oblique'), url(/dist/FuturaStdLightOblique.woff) format('woff');
+src: local('Futura Std Light Oblique'), url(FuturaStdLightOblique.woff) format('woff');
 }
 
 
@@ -2024,7 +2024,7 @@ src: local('Futura Std Light Oblique'), url(/dist/FuturaStdLightOblique.woff) fo
 font-family: 'Futura Std Medium Condensed';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Medium Condensed'), url(/dist/FuturaStdCondensed.woff) format('woff');
+src: local('Futura Std Medium Condensed'), url(FuturaStdCondensed.woff) format('woff');
 }
 
 
@@ -2032,7 +2032,7 @@ src: local('Futura Std Medium Condensed'), url(/dist/FuturaStdCondensed.woff) fo
 font-family: 'Futura Std Medium';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Medium'), url(/dist/FuturaStdMedium.woff) format('woff');
+src: local('Futura Std Medium'), url(FuturaStdMedium.woff) format('woff');
 }
 
 
@@ -2040,7 +2040,7 @@ src: local('Futura Std Medium'), url(/dist/FuturaStdMedium.woff) format('woff');
 font-family: 'Futura Std Medium Condensed Oblique';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Medium Condensed Oblique'), url(/dist/FuturaStdCondensedOblique.woff) format('woff');
+src: local('Futura Std Medium Condensed Oblique'), url(FuturaStdCondensedOblique.woff) format('woff');
 }
 
 
@@ -2048,7 +2048,7 @@ src: local('Futura Std Medium Condensed Oblique'), url(/dist/FuturaStdCondensedO
 font-family: 'Futura Std Medium Oblique';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Medium Oblique'), url(/dist/FuturaStdMediumOblique.woff) format('woff');
+src: local('Futura Std Medium Oblique'), url(FuturaStdMediumOblique.woff) format('woff');
 }
 
 
@@ -2056,7 +2056,7 @@ src: local('Futura Std Medium Oblique'), url(/dist/FuturaStdMediumOblique.woff) 
 font-family: 'Futura Std Heavy';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Heavy'), url(/dist/FuturaStdHeavy.woff) format('woff');
+src: local('Futura Std Heavy'), url(FuturaStdHeavy.woff) format('woff');
 }
 
 
@@ -2064,7 +2064,7 @@ src: local('Futura Std Heavy'), url(/dist/FuturaStdHeavy.woff) format('woff');
 font-family: 'Futura Std Heavy Oblique';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Heavy Oblique'), url(/dist/FuturaStdHeavyOblique.woff) format('woff');
+src: local('Futura Std Heavy Oblique'), url(FuturaStdHeavyOblique.woff) format('woff');
 }
 
 
@@ -2072,7 +2072,7 @@ src: local('Futura Std Heavy Oblique'), url(/dist/FuturaStdHeavyOblique.woff) fo
 font-family: 'Futura Std Bold';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Bold'), url(/dist/FuturaStdBold.woff) format('woff');
+src: local('Futura Std Bold'), url(FuturaStdBold.woff) format('woff');
 }
 
 
@@ -2080,7 +2080,7 @@ src: local('Futura Std Bold'), url(/dist/FuturaStdBold.woff) format('woff');
 font-family: 'Futura Std Bold Condensed';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Bold Condensed'), url(/dist/FuturaStdCondensedBold.woff) format('woff');
+src: local('Futura Std Bold Condensed'), url(FuturaStdCondensedBold.woff) format('woff');
 }
 
 
@@ -2088,7 +2088,7 @@ src: local('Futura Std Bold Condensed'), url(/dist/FuturaStdCondensedBold.woff) 
 font-family: 'Futura Std Bold Oblique';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Bold Oblique'), url(/dist/FuturaStdBoldOblique.woff) format('woff');
+src: local('Futura Std Bold Oblique'), url(FuturaStdBoldOblique.woff) format('woff');
 }
 
 
@@ -2096,7 +2096,7 @@ src: local('Futura Std Bold Oblique'), url(/dist/FuturaStdBoldOblique.woff) form
 font-family: 'Futura Std Bold Condensed Oblique';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Bold Condensed Oblique'), url(/dist/FuturaStdCondensedBoldObl.woff) format('woff');
+src: local('Futura Std Bold Condensed Oblique'), url(FuturaStdCondensedBoldObl.woff) format('woff');
 }
 
 
@@ -2104,7 +2104,7 @@ src: local('Futura Std Bold Condensed Oblique'), url(/dist/FuturaStdCondensedBol
 font-family: 'Futura Std Extra Bold Condensed';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Extra Bold Condensed'), url(/dist/FuturaStdCondensedExtraBd.woff) format('woff');
+src: local('Futura Std Extra Bold Condensed'), url(FuturaStdCondensedExtraBd.woff) format('woff');
 }
 
 
@@ -2112,7 +2112,7 @@ src: local('Futura Std Extra Bold Condensed'), url(/dist/FuturaStdCondensedExtra
 font-family: 'Futura Std Extra Bold';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Extra Bold'), url(/dist/FuturaStdExtraBold.woff) format('woff');
+src: local('Futura Std Extra Bold'), url(FuturaStdExtraBold.woff) format('woff');
 }
 
 
@@ -2120,7 +2120,7 @@ src: local('Futura Std Extra Bold'), url(/dist/FuturaStdExtraBold.woff) format('
 font-family: 'Futura Std Extra Bold Condensed Oblique';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Extra Bold Condensed Oblique'), url(/dist/FuturaStdCondExtraBoldObl.woff) format('woff');
+src: local('Futura Std Extra Bold Condensed Oblique'), url(FuturaStdCondExtraBoldObl.woff) format('woff');
 }
 
 
@@ -2128,196 +2128,196 @@ src: local('Futura Std Extra Bold Condensed Oblique'), url(/dist/FuturaStdCondEx
 font-family: 'Futura Std Extra Bold Oblique';
 font-style: normal;
 font-weight: normal;
-src: local('Futura Std Extra Bold Oblique'), url(/dist/FuturaStdExtraBoldOblique.woff) format('woff');
+src: local('Futura Std Extra Bold Oblique'), url(FuturaStdExtraBoldOblique.woff) format('woff');
 }
 @font-face {
     font-family: 'Gotham';
-    src: url(/dist/Gotham-LightItalic.eot);
+    src: url(Gotham-LightItalic.eot);
     src: local('Gotham Light Italic'), local('Gotham-LightItalic'),
-        url(/dist/Gotham-LightItalic.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-LightItalic.woff2) format('woff2'),
-        url(/dist/Gotham-LightItalic.woff) format('woff'),
-        url(/dist/Gotham-LightItalic.ttf) format('truetype');
+        url(Gotham-LightItalic.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-LightItalic.woff2) format('woff2'),
+        url(Gotham-LightItalic.woff) format('woff'),
+        url(Gotham-LightItalic.ttf) format('truetype');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url(/dist/Gotham-BoldItalic.eot);
+    src: url(Gotham-BoldItalic.eot);
     src: local('Gotham Bold Italic'), local('Gotham-BoldItalic'),
-        url(/dist/Gotham-BoldItalic.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-BoldItalic.woff2) format('woff2'),
-        url(/dist/Gotham-BoldItalic.woff) format('woff'),
-        url(/dist/Gotham-BoldItalic.ttf) format('truetype');
+        url(Gotham-BoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-BoldItalic.woff2) format('woff2'),
+        url(Gotham-BoldItalic.woff) format('woff'),
+        url(Gotham-BoldItalic.ttf) format('truetype');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url(/dist/Gotham-XLight.eot);
+    src: url(Gotham-XLight.eot);
     src: local('Gotham ExtraLight'), local('Gotham-XLight'),
-        url(/dist/Gotham-XLight.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-XLight.woff2) format('woff2'),
-        url(/dist/Gotham-XLight.woff) format('woff'),
-        url(/dist/Gotham-XLight.ttf) format('truetype');
+        url(Gotham-XLight.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-XLight.woff2) format('woff2'),
+        url(Gotham-XLight.woff) format('woff'),
+        url(Gotham-XLight.ttf) format('truetype');
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url(/dist/Gotham-Thin.eot);
+    src: url(Gotham-Thin.eot);
     src: local('Gotham Thin'), local('Gotham-Thin'),
-        url(/dist/Gotham-Thin.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-Thin.woff2) format('woff2'),
-        url(/dist/Gotham-Thin.woff) format('woff'),
-        url(/dist/Gotham-Thin.ttf) format('truetype');
+        url(Gotham-Thin.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-Thin.woff2) format('woff2'),
+        url(Gotham-Thin.woff) format('woff'),
+        url(Gotham-Thin.ttf) format('truetype');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url(/dist/Gotham-Book.eot);
+    src: url(Gotham-Book.eot);
     src: local('Gotham Book'), local('Gotham-Book'),
-        url(/dist/Gotham-Book.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-Book.woff2) format('woff2'),
-        url(/dist/Gotham-Book.woff) format('woff'),
-        url(/dist/Gotham-Book.ttf) format('truetype');
+        url(Gotham-Book.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-Book.woff2) format('woff2'),
+        url(Gotham-Book.woff) format('woff'),
+        url(Gotham-Book.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url(/dist/Gotham-ThinItalic.eot);
+    src: url(Gotham-ThinItalic.eot);
     src: local('Gotham Thin Italic'), local('Gotham-ThinItalic'),
-        url(/dist/Gotham-ThinItalic.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-ThinItalic.woff2) format('woff2'),
-        url(/dist/Gotham-ThinItalic.woff) format('woff'),
-        url(/dist/Gotham-ThinItalic.ttf) format('truetype');
+        url(Gotham-ThinItalic.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-ThinItalic.woff2) format('woff2'),
+        url(Gotham-ThinItalic.woff) format('woff'),
+        url(Gotham-ThinItalic.ttf) format('truetype');
     font-weight: 100;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url(/dist/Gotham-MediumItalic.eot);
+    src: url(Gotham-MediumItalic.eot);
     src: local('Gotham Medium Italic'), local('Gotham-MediumItalic'),
-        url(/dist/Gotham-MediumItalic.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-MediumItalic.woff2) format('woff2'),
-        url(/dist/Gotham-MediumItalic.woff) format('woff'),
-        url(/dist/Gotham-MediumItalic.ttf) format('truetype');
+        url(Gotham-MediumItalic.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-MediumItalic.woff2) format('woff2'),
+        url(Gotham-MediumItalic.woff) format('woff'),
+        url(Gotham-MediumItalic.ttf) format('truetype');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Gotham Ultra';
-    src: url(/dist/Gotham-UltraItalic.eot);
+    src: url(Gotham-UltraItalic.eot);
     src: local('Gotham Ultra Italic'), local('Gotham-UltraItalic'),
-        url(/dist/Gotham-UltraItalic.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-UltraItalic.woff2) format('woff2'),
-        url(/dist/Gotham-UltraItalic.woff) format('woff'),
-        url(/dist/Gotham-UltraItalic.ttf) format('truetype');
+        url(Gotham-UltraItalic.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-UltraItalic.woff2) format('woff2'),
+        url(Gotham-UltraItalic.woff) format('woff'),
+        url(Gotham-UltraItalic.ttf) format('truetype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url(/dist/Gotham-BookItalic.eot);
+    src: url(Gotham-BookItalic.eot);
     src: local('Gotham Book Italic'), local('Gotham-BookItalic'),
-        url(/dist/Gotham-BookItalic.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-BookItalic.woff2) format('woff2'),
-        url(/dist/Gotham-BookItalic.woff) format('woff'),
-        url(/dist/Gotham-BookItalic.ttf) format('truetype');
+        url(Gotham-BookItalic.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-BookItalic.woff2) format('woff2'),
+        url(Gotham-BookItalic.woff) format('woff'),
+        url(Gotham-BookItalic.ttf) format('truetype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url(/dist/Gotham-BlackItalic.eot);
+    src: url(Gotham-BlackItalic.eot);
     src: local('Gotham Black Italic'), local('Gotham-BlackItalic'),
-        url(/dist/Gotham-BlackItalic.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-BlackItalic.woff2) format('woff2'),
-        url(/dist/Gotham-BlackItalic.woff) format('woff'),
-        url(/dist/Gotham-BlackItalic.ttf) format('truetype');
+        url(Gotham-BlackItalic.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-BlackItalic.woff2) format('woff2'),
+        url(Gotham-BlackItalic.woff) format('woff'),
+        url(Gotham-BlackItalic.ttf) format('truetype');
     font-weight: 900;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url(/dist/Gotham-Light.eot);
+    src: url(Gotham-Light.eot);
     src: local('Gotham Light'), local('Gotham-Light'),
-        url(/dist/Gotham-Light.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-Light.woff2) format('woff2'),
-        url(/dist/Gotham-Light.woff) format('woff'),
-        url(/dist/Gotham-Light.ttf) format('truetype');
+        url(Gotham-Light.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-Light.woff2) format('woff2'),
+        url(Gotham-Light.woff) format('woff'),
+        url(Gotham-Light.ttf) format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url(/dist/Gotham-Bold.eot);
+    src: url(Gotham-Bold.eot);
     src: local('Gotham Bold'), local('Gotham-Bold'),
-        url(/dist/Gotham-Bold.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-Bold.woff2) format('woff2'),
-        url(/dist/Gotham-Bold.woff) format('woff'),
-        url(/dist/Gotham-Bold.ttf) format('truetype');
+        url(Gotham-Bold.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-Bold.woff2) format('woff2'),
+        url(Gotham-Bold.woff) format('woff'),
+        url(Gotham-Bold.ttf) format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url(/dist/Gotham-Medium.eot);
+    src: url(Gotham-Medium.eot);
     src: local('Gotham Medium'), local('Gotham-Medium'),
-        url(/dist/Gotham-Medium.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-Medium.woff2) format('woff2'),
-        url(/dist/Gotham-Medium.woff) format('woff'),
-        url(/dist/Gotham-Medium.ttf) format('truetype');
+        url(Gotham-Medium.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-Medium.woff2) format('woff2'),
+        url(Gotham-Medium.woff) format('woff'),
+        url(Gotham-Medium.ttf) format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham Ultra';
-    src: url(/dist/Gotham-Ultra.eot);
+    src: url(Gotham-Ultra.eot);
     src: local('Gotham Ultra'), local('Gotham-Ultra'),
-        url(/dist/Gotham-Ultra.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-Ultra.woff2) format('woff2'),
-        url(/dist/Gotham-Ultra.woff) format('woff'),
-        url(/dist/Gotham-Ultra.ttf) format('truetype');
+        url(Gotham-Ultra.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-Ultra.woff2) format('woff2'),
+        url(Gotham-Ultra.woff) format('woff'),
+        url(Gotham-Ultra.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url(/dist/Gotham-XLightItalic.eot);
+    src: url(Gotham-XLightItalic.eot);
     src: local('Gotham ExtraLight Italic'), local('Gotham-XLightItalic'),
-        url(/dist/Gotham-XLightItalic.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-XLightItalic.woff2) format('woff2'),
-        url(/dist/Gotham-XLightItalic.woff) format('woff'),
-        url(/dist/Gotham-XLightItalic.ttf) format('truetype');
+        url(Gotham-XLightItalic.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-XLightItalic.woff2) format('woff2'),
+        url(Gotham-XLightItalic.woff) format('woff'),
+        url(Gotham-XLightItalic.ttf) format('truetype');
     font-weight: 200;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url(/dist/Gotham-Black.eot);
+    src: url(Gotham-Black.eot);
     src: local('Gotham Black'), local('Gotham-Black'),
-        url(/dist/Gotham-Black.eot?#iefix) format('embedded-opentype'),
-        url(/dist/Gotham-Black.woff2) format('woff2'),
-        url(/dist/Gotham-Black.woff) format('woff'),
-        url(/dist/Gotham-Black.ttf) format('truetype');
+        url(Gotham-Black.eot?#iefix) format('embedded-opentype'),
+        url(Gotham-Black.woff2) format('woff2'),
+        url(Gotham-Black.woff) format('woff'),
+        url(Gotham-Black.ttf) format('truetype');
     font-weight: 900;
     font-style: normal;
 }
@@ -2567,7 +2567,7 @@ body {
   color: #444444;
   border: 1px #D6D1C7 solid;
   border-radius: 50px;
-  background: url(/dist/Loupe-icon.png);
+  background: url(Loupe-icon.png);
   background-position: 5% 50%;
   background-repeat: no-repeat;
 }
@@ -2623,7 +2623,7 @@ body {
 .carousel .carousel-inner .slick-next {
   width: 80px;
   height: 80px;
-  background: #fff url("/src/icon/Arrow4.png") 58% center no-repeat;
+  background: #fff url(Arrow4.png) 58% center no-repeat;
   border: 5px solid #414A3E;
   border-radius: 50%;
 }
@@ -2635,7 +2635,7 @@ body {
 .carousel .carousel-inner .slick-prev {
   width: 80px;
   height: 80px;
-  background: #fff url("/src/icon/Arrow3.png") 42% center no-repeat;
+  background: #fff url(Arrow3.png) 42% center no-repeat;
   border: 5px solid #414A3E;
   border-radius: 50%;
   z-index: 99;
@@ -2664,7 +2664,7 @@ body {
   letter-spacing: 2px;
   color: #fff;
   background: none;
-  background: url("/src/icon/Arrow1X.png") right center no-repeat;
+  background: url(Arrow1X.png) right center no-repeat;
   border: none;
   border-left: 2px #D9100C solid;
   border-radius: 0 20px 20px 0;
@@ -2701,12 +2701,12 @@ body {
 }
 
 .catalog-inner__item {
-  width: 362px;
+  width: 32%;
   height: 385px;
   text-align: center;
   background: #fff;
   border: 1px solid #E6E6EB;
-  padding: 27px 0 13px;
+  padding: 17px 0 13px;
   margin-top: -53px;
 }
 
@@ -2724,17 +2724,17 @@ body {
 }
 
 .catalog-inner__background-first {
-  background: url("/src/img/Layer21@1X.png");
+  background: url(Layer21@1X.png);
   background-position: 40% 70%;
 }
 
 .catalog-inner__background-second {
-  background: url("/src/img/Layer20@1X.png");
+  background: url(Layer20@1X.png);
   background-position: 59% 45%;
 }
 
 .catalog-inner__background-third {
-  background: url("/src/img/Layer22@1X.png");
+  background: url(Layer22@1X.png);
   background-position: 40% 25%;
 }
 
@@ -2769,8 +2769,11 @@ body {
   font-size: 12px;
 }
 
+.catalog-product {
+  width: 50%;
+}
+
 .catalog-product__item {
-  width: 182px;
   height: 236px;
   border: none;
   margin-top: 0;
@@ -2891,7 +2894,7 @@ body {
 }
 
 .selection-menu {
-  width: 284px;
+  width: 90%;
   height: 236px;
   background: #fff;
   padding: 15px 0;
@@ -2909,7 +2912,11 @@ body {
 .selection-menu__hamburger {
   display: none;
   border: 1px #E6E6EB solid;
-  margin-left: -50px;
+}
+
+.selection-menu__filter {
+  width: 200px;
+  margin: 10px;
 }
 
 .menu-lists {
@@ -2928,11 +2935,11 @@ body {
 
 .menu-lists__list-1 {
   border-right: 2px #E6E6EB solid;
-  padding-right: 34px;
+  padding-right: 5px;
 }
 
 .menu-lists__list-2 {
-  padding-left: 34px;
+  padding-left: 5px;
 }
 
 .menu-lists__item {
@@ -2980,7 +2987,7 @@ body {
   font-size: 14px;
   text-decoration: none;
   color: #626162;
-  background: url("/src/icon/Arrow@1X.png") left 35% no-repeat;
+  background: url(Arrow@1X.png) left 35% no-repeat;
   padding-left: 10px;
   margin-right: 25px;
 }
@@ -3035,35 +3042,35 @@ body {
 }
 
 .product__img_1 {
-  background: url("/src/img/1.jpg") center 85% no-repeat;
+  background: url(1.jpg) center 85% no-repeat;
 }
 
 .product__img_2 {
-  background: url("/src/img/5.jpg") center 85% no-repeat;
+  background: url(5.jpg) center 85% no-repeat;
 }
 
 .product__img_3 {
-  background: url("/src/img/3.jpg") center 85% no-repeat;
+  background: url(3.jpg) center 85% no-repeat;
 }
 
 .product__img_4 {
-  background: url("/src/img/2.jpg") center 85% no-repeat;
+  background: url(2.jpg) center 85% no-repeat;
 }
 
 .product__img_5 {
-  background: url("/src/img/4.jpg") center 85% no-repeat;
+  background: url(4.jpg) center 85% no-repeat;
 }
 
 .product__img_6 {
-  background: url("/src/img/6.jpg") center 85% no-repeat;
+  background: url(6.jpg) center 85% no-repeat;
 }
 
 .product__img_7 {
-  background: url("/src/img/7.jpg") center 85% no-repeat;
+  background: url(7.jpg) center 85% no-repeat;
 }
 
 .product__img_8 {
-  background: url("/src/img/8.jpg") center 85% no-repeat;
+  background: url(8.jpg) center 85% no-repeat;
 }
 
 .product__text {
@@ -3378,7 +3385,7 @@ body {
   width: 468px;
   height: 405px;
   border: 1px solid #f0eeee;
-  background: #fff;
+  background: #fff url(Layer118@2X.png) center no-repeat;
   text-align: center;
   padding-top: 53px;
   margin-top: 13px;
@@ -3386,7 +3393,7 @@ body {
 
 .card-product__photo-logo {
   width: 229px;
-  margin-top: 40px;
+  margin-top: 295px;
 }
 
 .card-product__small {
@@ -3531,7 +3538,7 @@ body {
 .star-rating__star {
   width: 19px;
   height: 19px;
-  background: url(/dist/Sprite.png);
+  background: url(Sprite.png);
   background-position: 19px 0;
   -webkit-filter: drop-shadow(-1px -1px 0 rgba(0, 0, 0, 0.4));
           filter: drop-shadow(-1px -1px 0 rgba(0, 0, 0, 0.4));
@@ -3629,24 +3636,24 @@ body {
 }
 
 .share__img-1 {
-  background: url(/dist/facebook.svg);
+  background: url(facebook.svg);
 }
 
 .share__img-2 {
-  background: #EBECEC url(/dist/twitter.svg) center no-repeat;
+  background: #EBECEC url(twitter.svg) center no-repeat;
   background-size: 80%;
   border: 1px solid #E6E6EB;
 }
 
 .share__img-3 {
-  background: url(/dist/mail.svg) center/cover;
+  background: url(mail.svg) center/cover;
   background-size: 140%;
   opacity: .3;
   border: 1px solid #2c2c2c;
 }
 
 .share__img-4 {
-  background: url(/dist/print.svg) center;
+  background: url(print.svg) center;
   opacity: .8;
 }
 
@@ -3768,10 +3775,15 @@ body {
 
 @media (max-width: 1199px) {
   .logo-footer {
-    margin-top: 20px;
+    font-size: 26px;
+    margin-right: 15px;
+  }
+  .logo-footer_light {
+    font-size: 26px;
+    margin: 3px 0 0 5px;
   }
   .selection-menu__hamburger {
-    margin: 10px 12px 0 12px;
+    margin-top: 10px;
   }
   .menu__item {
     padding-right: 20px;
@@ -3782,7 +3794,7 @@ body {
     padding: 17px 0;
   }
   .menu-footer__item {
-    padding-right: 40px;
+    padding-right: 10px;
   }
   .carousel .carousel-inner .slider__img {
     width: 95%;
@@ -3799,14 +3811,6 @@ body {
   }
   .selection-goods__wrapper {
     padding: 31px 13px 38px 37px;
-  }
-  .selection-goods .products {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
-  .selection-goods .product {
-    margin-right: 60px;
   }
 }
 
@@ -3841,24 +3845,12 @@ body {
   .carousel .getnow-btn {
     margin-left: 290px;
   }
-  .selection-menu {
-    width: 228px;
-    margin-left: 0;
-  }
-  .menu-lists__list-1 {
-    padding-right: 10px;
-  }
-  .menu-lists__list-2 {
-    padding-left: 10px;
-  }
   .selection-goods__wrapper {
     padding: 31px 60px 38px 60px;
   }
-  .catalog-inner__item {
-    width: 150px;
-  }
-  .selection-menu {
-    width: 150px;
+  .selection-menu__filter {
+    width: 180px;
+    margin: 0;
   }
   .menu-lists__list-1 {
     padding-right: 3px;
@@ -3866,12 +3858,17 @@ body {
   .menu-lists__list-2 {
     padding: 3px;
   }
+  .catalog-product {
+    width: 70%;
+  }
   .card-product__photo {
     width: 100%;
     height: 350px;
+    background-size: 90%;
   }
-  .card-product__photo-img {
-    width: 80%;
+  .card-product__photo-logo {
+    width: 179px;
+    margin-top: 255px;
   }
   .card-product__small {
     width: 70%;
@@ -3888,6 +3885,12 @@ body {
   }
   .product-menu {
     padding-top: 100px;
+  }
+  .footer-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -3948,27 +3951,11 @@ body {
   .carousel .getnow-btn {
     margin-left: 450px;
   }
-  .selection-menu {
-    width: 223px;
-    margin-left: 0;
-  }
   .selection-goods__wrapper {
     padding: 31px 60px 38px 60px;
   }
-  .catalog-inner__item {
-    width: 150px;
-  }
-  .selection-menu {
-    width: 150px;
-  }
-  .menu-lists__list-1 {
-    padding-right: 3px;
-  }
-  .menu-lists__list-2 {
-    padding: 3px;
-  }
   .card-product__photo {
-    margin: 13px auto 0 auto;
+    background-size: 60%;
   }
   .card-product__small {
     margin: 13px auto 0 auto;
@@ -4047,6 +4034,9 @@ body {
   .getnow-product {
     margin: 0 auto;
   }
+  .product {
+    width: 208px;
+  }
   .catalog-inner__item {
     height: 330px;
   }
@@ -4056,6 +4046,9 @@ body {
   .catalog-inner__background {
     width: 150px;
     height: 150px;
+  }
+  .catalog-product {
+    margin-bottom: 100px;
   }
   .catalog-product__item {
     width: 102px;
@@ -4067,13 +4060,6 @@ body {
   .catalog-product__background {
     width: 84px;
     height: 84px;
-  }
-  .selection-menu {
-    width: 181px;
-    margin: 10px 0 0 0;
-  }
-  .selection-menu__filter {
-    margin-left: -60px;
   }
   .menu-lists__list-1 {
     padding-right: 5px;
@@ -4103,5 +4089,3 @@ body {
     padding: 5px 0 0 0;
   }
 }
-
-/*# sourceMappingURL=catalog.css.map*/

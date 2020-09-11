@@ -22,8 +22,8 @@ const config_index = {
     output: {
         //filename: '[name].[contenthash].js',
         filename: '[name].js',
-        path: path.resolve(__dirname, 'dist'),
-        publicPath: "/dist/"
+        path: path.resolve(__dirname, 'dist')
+        // publicPath: "/dist/"
     },
     optimization: {
         // splitChunks: {
@@ -117,8 +117,8 @@ const config_product = {
     entry: {card: './js/product.js'},
     output: {
         filename: '[name].[contenthash].js',
-        path: path.resolve(__dirname, 'dist'),
-        publicPath: "/dist/"
+        path: path.resolve(__dirname, 'dist')
+        // publicPath: "/dist/"
     },
     optimization: {
         splitChunks: {
@@ -185,8 +185,8 @@ const config_catalog = {
     entry: {card: './js/catalog.js'},
     output: {
         filename: '[name].[contenthash].js',
-        path: path.resolve(__dirname, 'dist'),
-        publicPath: "/dist/"
+        path: path.resolve(__dirname, 'dist')
+        // publicPath: "/dist/"
     },
     optimization: {
         splitChunks: {

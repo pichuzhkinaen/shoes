@@ -7,12 +7,12 @@
         position: relative;
         z-index: 10;
         &__item {
-            width: 362px;
+            width: 32%;
             height: 385px;
             text-align: center;
             background: #fff;
             border: 1px solid #E6E6EB;
-            padding: 27px 0 13px;
+            padding: 17px 0 13px;
             margin-top: -53px;
         }
         &__title {
@@ -26,15 +26,15 @@
             border-radius: 50%;
             margin: 16px auto 20px auto;
             &-first {
-                background: url('/src/img/Layer21@1X.png');
+                background: url('../img/Layer21@1X.png');
                 background-position: 40% 70%;
             }
             &-second {
-                background: url('/src/img/Layer20@1X.png');
+                background: url('../img/Layer20@1X.png');
                 background-position: 59% 45%;
             }
             &-third {
-                background: url('/src/img/Layer22@1X.png');
+                background: url('../img/Layer22@1X.png');
                 background-position: 40% 25%;
             }
         }
@@ -62,8 +62,8 @@
         }
     }
     &-product {
+        width: 50%;
         &__item {
-            width: 182px;
             height: 236px;
             border: none;
             margin-top: 0;

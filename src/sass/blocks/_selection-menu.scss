@@ -1,5 +1,5 @@
 .selection-menu {
-    width: 284px;
+    width: 90%;
     height: 236px;
     background: #fff;
     padding: 15px 0;
@@ -14,7 +14,10 @@
     &__hamburger {
         display: none;
         border: 1px #E6E6EB solid;
-        margin-left: -50px;
+    }
+    &__filter {
+        width: 200px;
+        margin: 10px;
     }
 }
 .menu-lists {
@@ -25,10 +28,10 @@
         padding: 0;
         &-1 {
             border-right: 2px #E6E6EB solid;
-            padding-right: 34px;
+            padding-right: 5px;
         }
         &-2 {
-            padding-left: 34px;
+            padding-left: 5px;
         }
     }
     &__item {
